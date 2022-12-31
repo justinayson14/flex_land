@@ -55,6 +55,11 @@ button {
     text-align: center;
 }
 
+.quotes {
+    background-color: #e5e7eb;
+    min-height: 500px;
+}
+
 .header .navbar{
     display: flex;
     justify-content: space-between;
@@ -139,3 +144,27 @@ button {
     font-size: 18px;
     color: #1f2937;
 }
+
+.container .quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+    width: 825px;
+}
+
+.container .writer {
+    font-size: 18px;
+    font-weight: 700;
+    width: 825px;
+    text-align: right;
+}
+
+.quotes .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
