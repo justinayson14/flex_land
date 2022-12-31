@@ -32,6 +32,10 @@ button {
     font-weight: 800;
 }
 
+button:hover {
+    background-color: #689cf0;
+}
+
 .navbar,
 .flex_container,
 .container {
@@ -61,6 +65,16 @@ button {
     min-height: 500px;
 }
 
+.alert {
+    min-height: 500px;
+}
+
+.footer {
+    min-height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
 .header .navbar{
     display: flex;
     justify-content: space-between;
@@ -75,6 +89,10 @@ button {
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #b3b3b3;
 }
 
 .navbar .logo {
@@ -132,7 +150,6 @@ button {
     align-items: center;
     justify-content: center;
     gap: 52px;
-    margin: 0 auto;
 }
 
 .container .info {
@@ -186,7 +203,6 @@ button {
     align-items: center;
 }
 
-
 .rectangle .press {
     display: flex;
     justify-content: center;
@@ -198,6 +214,12 @@ button {
     font-weight: 800;
 }
 
+.footer .container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .rectangle .content h2{
     margin-bottom: 0;
@@ -209,3 +231,4 @@ button {
     color: #f9faf8;
     margin-top: 0;
 }
+
